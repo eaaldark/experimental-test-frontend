@@ -1,9 +1,11 @@
-import { Fragment } from "react";
+import CardList from "../components/CardList";
+import useFetch from "../hooks/useFetchUsers";
 
-const UserList = () => (
-  <Fragment>
-    <div></div>
-  </Fragment>
-);
+const UserList = () => {
+  const { data } = useFetch(`http://localhost:8080/get`);
+  return (
+      <CardList data={data} />
+  );
+};
 
 export default UserList;
