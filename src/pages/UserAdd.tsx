@@ -2,7 +2,7 @@ import { Fragment } from "react";
 
 const UserAdd = () => (
   <Fragment>
-    <div></div>
+    <div>Añadir</div>
   </Fragment>
 );
 

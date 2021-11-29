@@ -2,7 +2,7 @@ import { Fragment } from "react";
 
 const UserUpdate = () => (
   <Fragment>
-    <div></div>
+    <div>actualizar</div>
   </Fragment>
 );
 

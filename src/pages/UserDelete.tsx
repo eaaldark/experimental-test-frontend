@@ -2,7 +2,7 @@ import { Fragment } from "react";
 
 const UserDelete = () => (
   <Fragment>
-    <div></div>
+    <div>Desaparecer</div>
   </Fragment>
 );
 
